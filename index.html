@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <!-- Use a modern font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom styles and font configuration for Tailwind -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a1a2e; /* Dark background */
+            color: #e0e0e0; /* Light text */
+        }
+        .container {
+            max-width: 1200px;
+        }
+        /* Custom scrollbar for a sleek look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2a2a44;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #646cff;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="antialiased leading-relaxed">
+
+    <!-- Header & Hero Section -->
+    <header class="py-16 md:py-24 flex items-center justify-center">
+        <div class="text-center px-4">
+            <!-- Replace with your actual profile image URL -->
+            <img src="https://placehold.co/150x150/646cff/fff?text=P" alt="Profile Picture" class="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-lg">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-2 text-white">Your Name Here</h1>
+            <p class="text-xl md:text-2xl text-gray-300">A passionate Developer | Designer | Coder</p>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 pb-20">
+
+        <!-- About Me Section -->
+        <section id="about" class="bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-400">About Me</h2>
+            <p class="text-lg text-gray-300 leading-relaxed">
+                Hello! I'm a software developer with a strong passion for building creative and functional web applications. I specialize in front-end technologies and enjoy solving complex problems. I'm a continuous learner and love exploring new tools and frameworks to improve my skills.
+            </p>
+            <p class="mt-4 text-lg text-gray-300 leading-relaxed">
+                Outside of coding, I enjoy hiking, playing video games, and contributing to open-source projects. I'm always looking for new challenges and opportunities to collaborate with others.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-400">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-6 transform transition-transform duration-300 hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Project Title One</h3>
+                    <p class="text-gray-400 mb-4">A brief description of your project, what it does, and the technologies used. Keep it concise and engaging.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-indigo-600">
+                            Live Demo
+                        </a>
+                        <a href="#" class="bg-gray-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-gray-700">
+                            GitHub Repo
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-6 transform transition-transform duration-300 hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Project Title Two</h3>
+                    <p class="text-gray-400 mb-4">Another cool project description here. This project showcases your skills in a different area.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-indigo-600">
+                            Live Demo
+                        </a>
+                        <a href="#" class="bg-gray-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-gray-700">
+                            GitHub Repo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-800 rounded-2xl shadow-xl p-6 transform transition-transform duration-300 hover:scale-105">
+                    <h3 class="text-2xl font-semibold mb-2 text-white">Project Title Three</h3>
+                    <p class="text-gray-400 mb-4">You can add a third project here to fill out your portfolio and show a variety of work.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-indigo-600">
+                            Live Demo
+                        </a>
+                        <a href="#" class="bg-gray-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300 hover:bg-gray-700">
+                            GitHub Repo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-400">Skills</h2>
+            <div class="flex flex-wrap gap-3">
+                <!-- Replace with your skills -->
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">HTML</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">CSS</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">JavaScript</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">React</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">Python</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">Git/GitHub</span>
+                <span class="bg-gray-700 text-gray-200 text-sm font-medium px-4 py-2 rounded-full shadow-md">Tailwind CSS</span>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-400">Get in Touch</h2>
+            <p class="text-lg text-gray-300 mb-8">
+                I'm always open to new opportunities. Feel free to connect with me!
+            </p>
+            <div class="flex items-center justify-center space-x-6">
+                <!-- GitHub Link -->
+                <a href="https://github.com/your-username" aria-label="GitHub Profile" class="text-gray-300 hover:text-white transition-colors duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.83 9.504.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.465-1.11-1.465-.908-.618.069-.606.069-.606 1.004.07 1.531 1.032 1.531 1.032.892 1.529 2.341 1.085 2.91.828.092-.644.35-1.085.637-1.334-2.22-.253-4.555-1.118-4.555-4.939 0-1.09.39-1.984 1.029-2.684-.103-.253-.446-1.272.098-2.65 0 0 .84-.268 2.75 1.022A9.638 9.638 0 0112 6.865c.85.006 1.7.103 2.502.304 1.908-1.29 2.747-1.022 2.747-1.022.546 1.379.202 2.398.099 2.65.64.7 1.028 1.594 1.028 2.684 0 3.832-2.339 4.685-4.569 4.934.359.309.678.92.678 1.855 0 1.334-.012 2.41-.012 2.723 0 .265.18.57.687.482C19.137 20.218 22 16.463 22 12.017 22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                
+                <!-- LinkedIn Link -->
+                <a href="https://linkedin.com/in/your-username" aria-label="LinkedIn Profile" class="text-gray-300 hover:text-white transition-colors duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.768s.784-1.768 1.75-1.768 1.75.79 1.75 1.768c0 .978-.784 1.768-1.75 1.768zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+
+                <!-- Email Link -->
+                <a href="mailto:your.email@example.com" aria-label="Email Address" class="text-gray-300 hover:text-white transition-colors duration-300">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M0 4v16h24v-16h-24zm22 2l-10 7-10-7v-2l10 7 10-7v2z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-gray-500 text-sm">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
