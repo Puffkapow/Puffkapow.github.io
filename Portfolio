@@ -1,0 +1,13 @@
+git clone https://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
+
+mkdir Portfolio
+
+cd portfolio
+echo "print('Hello Portfolio')" > app.py
+
+cd ..
+
+git add .
+git commit -m "add portfolio folder with sample code"
+git push origin main
